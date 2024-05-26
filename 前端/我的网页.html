@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的网页</title>
+</head>
+<body>
+    <a name="top"></a>
+    <h1>标题：我的网页</h1>
+    <div><hr>顶部导航栏<br>
+        <a href="#table">跳转到表格</a>
+        <a href="#lianjie">跳转到链接</a>
+        <a href="#xiazai">跳转到下载</a>
+        <a href="">刷新页面</a>
+        <a href="javascript:alert(0);">弹窗</a><!--alert()里面只能写数字-->
+    </div>
+    <div><hr>展示按原文显示<br>
+        <pre>
+ ╥﹏╥...
+
+━━━━━┒
+┓┏┓┏┓┃
+┛┗┛┗┛┃ ＼o／
+┓┏┓┏┓┃  /
+┛┗┛┗┛┃ノ)
+┓┏┓┏┓┃ 
+┛┗┛┗┛┃ 
+┓┏┓┏┓┃ 
+┛┗┛┗┛┃ 
+┓┏┓┏┓┃ 
+┛┗┛┗┛┃ 
+┓┏┓┏┓┃ 
+┛┗┛┗┛┃
+┓┏┓┏┓┃ 
+┛┗┛┗┛┃(⊙﹏⊙)
+┓┏┓┏┓┃
+┛┗┛┗┛┃
+┓┏┓┏┓┃ 
+┛┗┛┗┛┃
+┓┏┓┏┓┃ 
+┛┗┛┗┛┃
+┓┏┓┏┓┃ 
+┛┗┛┗┛┃
+┓┏┓┏┓┃ 
+┛┗┛┗┛┃
+┓┏┓┏┓┃
+┛┗┛┗┛┃o((⊙﹏⊙))o.
+┓┏┓┏┓┃
+┛┗┛┗┛┃
+┓┏┓┏┓┃ 
+┛┗┛┗┛┃
+┓┏┓┏┓┃ 
+┛┗┛┗┛┃
+┓┏┓┏┓┃ 
+┛┗┛┗┛┃
+┓┏┓┏┓┃
+┛┗┛┗┛┃
+┓┏┓┏┓┃ヾ(≧O≦)〃嗷~
+┛┗┛┗┛┃
+┓┏┓┏┓┃
+┛┗┛┗┛┃
+┓┏┓┏┓┃
+┛┗┛┗┛┃
+┓┏┓┏┓┃
+┛┗┛┗┛┃
+┓┏┓┏┓┃ 
+┛┗┛┗┛┃
+┓┏┓┏┓┃
+┛┗┛┗┛┃ε(┬┬﹏┬┬)3
+┓┏┓┏┓┃ 
+┛┗┛┗┛┃
+┓┏┓┏┓┃ 
+┛┗┛┗┛┃
+┓┏┓┏┓┃
+┛┗┛┗┛┃
+┓┏┓┏┓┃
+┛┗┛┗┛┃
+┓┏┓┏┓┃
+┛┗┛┗┛┃
+┓┏┓┏┓┃ (つ﹏⊂)
+┛┗┛┗┛┃
+┓┏┓┏┓┃
+┛┗┛┗┛┃
+┓┏┓┏┓┃
+┛┗┛┗┛┃
+┓┏┓┏┓┃
+┛┗┛┗┛┃
+┓┏┓┏┓┃
+┛┗┛┗┛┃
+┓┏┓┏┓┃
+┃┃┃┃┃┃ (ﾟv°*)
+┻┻┻┻┻┻  ┳━┳ ︵   ┻━┻  ヘ(° □°´)ヘ
+        </pre>
+    </div>
+    <div id="table"><hr>表格展示<br>
+        <table border="2" cellspacing="0">
+            <caption>课程表</caption>
+            <thead height="48"> <!-- 表头 -->
+                <tr>
+                    <th colspan="2">时间</th>
+                    <th width="70">星期一</th>
+                    <th width="70">星期二</th>
+                    <th width="70">星期三</th>
+                    <th width="70">星期五</th>
+                    <th width="70">星期四</th>
+                    <th width="70">星期六</th>
+                    <th width="70">星期日</th>
+                </tr>
+            </thead> 
+            <tbody align="center"><!-- <tdody>表格主体 -->
+                <tr>
+                    <td rowspan="5" width="55">上午</td>
+                    <td height="80" width="60">8:00-<br>8:30</td>
+                    <td>晨会</td>
+                    <td>早读</td>
+                    <td>早读</td>
+                    <td>早读</td>
+                    <td>早读</td>
+                    <td rowspan="11">休息</td>
+                    <td rowspan="11">休息</td>
+                </tr>
+                <tr>
+                    <td height="80">8:40-<br>9:25</td>
+                    <td>语文</td>
+                    <td>数学</td>
+                    <td>英语</td>
+                    <td>语文</td>
+                    <td>英语</td>
+                </tr>
+                <tr>
+                    <td>9:25-<br>9:55</td>
+                    <td colspan="5">大课间</td>
+                </tr>
+                <tr>
+                    <td height="80">9:55-<br>10:40</td>
+                    <td>数学</td>
+                    <td>英语</td>
+                    <td>语文</td>
+                    <td>数学</td>
+                    <td>数学</td>
+                </tr>
+                <tr>
+                    <td height="80">10:40-<br>11:25</td>
+                    <td>体育</td>
+                    <td>信息技术</td>
+                    <td>语文</td>
+                    <td>数学</td>
+                    <td>思想品德</td>
+                </tr>
+                <tr height="50">
+                    <td >中午</td>
+                    <td>11:15-<br>14:00</td>
+                    <td colspan="5">午休</td>
+                </tr height="80">
+                <tr height="80">
+                    <td rowspan="5">下午</td>
+                    <td>14:00-<br>14:45</td>
+                    <td>语文</td>
+                    <td>英语</td>
+                    <td>音乐</td>
+                    <td>数学</td>
+                    <td>书法</td>
+                </tr>
+                <tr height="80">
+                    <td>14:55-<br>15:40</td>
+                    <td>英语</td>
+                    <td>美术</td>
+                    <td>语文</td>
+                    <td>体育</td>
+                    <td>语文</td>
+                </tr>
+                <tr>
+                    <td>15:40-<br>16:00</td>
+                    <td colspan="5">大课间</td>
+                </tr>
+                <tr height="80">
+                    <td>16:00-<br>16:45</td>
+                    <td>语文</td>
+                    <td>英语</td>
+                    <td>语文</td>
+                    <td>数学</td>
+                    <td>英语</td>
+                </tr>
+                <tr height="80">
+                    <td>16:55-<br>17:40</td>
+                    <td>科学</td>
+                    <td>英语</td>
+                    <td>班会</td>
+                    <td>数学</td>
+                    <td>数学</td>
+                </tr>
+            </tbody>
+            <tfoot> <!-- 表格脚注 -->
+                <tr height="36" align="center">
+                    <td colspan="2">总计</td>
+                    <td colspan="7">每周安排文化课20课时，素质课8课时</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <div> <hr>图片展示<br>
+        <img src="./favicon.ico"  alt="icon">
+        <img src="./image/230304.png" width="64" alt="头像">
+        <img src="./image/230402.png" width="64" alt="头像">
+        <img src="./image/230630.png" width="64" alt="头像">
+        <br>
+        <img src="./image/240415.jpg" height="512" alt="女神">
+        <img src="./image/231203-1.jpg" height="512" alt="女神">
+        <img src="./image/231203-2.jpg" height="512" alt="女神">
+        <img src="./image/231303-3.jpg" height="512" alt="女神">
+        <hr>
+    </div>
+    <div id="lianjie"><hr>链接展示<br>
+        <a href="https://www.taobao.com/"><img height="24" src="https://gw.alicdn.com/imgextra/i4/O1CN01H11jUw1gVppn3YjsM_!!6000000004148-2-tps-480-144.png"> 淘宝</a><br>
+        <a href="https://www.jd.com/"><img height="24" src="./image/1652671815618.jpeg">   京东</a><br>
+        <a href="https://www.jd.com/"><img height="24" src="https://img10.360buyimg.com/img/jfs/t1/158994/8/46263/9265/6647096eF5f27a35c/30167844c7623d35.jpg">京东   </a><br>
+        <a href="https://www.taobao.com/"><img height="24" src="https://gw.alicdn.com/imgextra/i4/O1CN01H11jUw1gVppn3YjsM_!!6000000004148-2-tps-480-144.png"> 淘宝</a><br>
+        点击图片在新标签页中打开<br>
+        <a href="./image/240415.jpg" target="_blank"><img src="./image/240415.jpg" width="200" alt="女神"></a><br>
+        <a href="./image/231203-1.jpg" target="_blank"><img src="./image/231203-1.jpg" width="200" alt="女神"></a><br>
+        <hr>
+        <p id="xiazai">点击图片触发下载</p>
+        <a href="./image/240415.jpg"download="女神自拍"><img src="./image/240415.jpg" width="200" alt="女神"></a><br>
+        <a href="./image/231203-1.jpg"download="女神照片1"><img src="./image/231203-1.jpg" width="200" alt="女神"></a><br>
+        <a href="./image/231203-2.jpg"download="女神照片2"><img src="./image/231203-2.jpg" width="200" alt="女神"></a><br>
+        <a href="./image/231303-3.jpg"download="女神照片3"><img src="./image/231303-3.jpg" width="200" alt="女神"></a><br>
+        <hr>
+    </div>
+    <div><hr>底部导航栏<br>
+        <a href="#table">跳转到表格</a>
+        <a href="#lianjie">跳转到链接</a>
+        <a href="#xiazai">跳转到下载</a>
+        <a href="#top">回到顶部1</a>
+        <a href="#">回到顶部2</a>
+    </div>
+</body>
+</html>
